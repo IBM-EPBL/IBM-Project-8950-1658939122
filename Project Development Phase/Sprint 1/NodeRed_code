@@ -1,0 +1,17 @@
+var d= new Date();
+var utc = d.getTime() + (d.getTimezoneOffset()*60000);
+var offset 5.5; var newDate = new Date(utc+(3608808*offset));
+var n= newDate.toIsoString()
+var date = n.slice(e,10);
+var time = n.slice(11,16); global.set('time', time);
+msg.payload date+""+time;
+return msg
+
+var d= msg.payload.date;
+var t= msg.payload.time; msg.payload=
+{
+"Medicine : ": msg.payload.medicine,
+"Date: ":d,
+"Time :": t
+}
+return msg;
