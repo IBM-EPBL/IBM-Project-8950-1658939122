@@ -1,0 +1,73 @@
+
+body {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 95vh;
+
+    flex-direction: column;
+
+}
+
+h2 {
+
+    text-align: center;
+
+}
+
+*{
+
+    font-family: monospace;
+
+    box-sizing: padding-box;
+
+}
+
+form {
+
+    width: 28%;
+
+    border: 2px solid black;
+
+    padding: 3%;
+
+    background: white;
+
+    border-radius: 2px;
+
+}
+
+
+input,button {
+
+    display: block;
+
+    border: 1px solid black;
+
+    width: 80%;
+
+    padding: 7px;
+
+    margin: 7px auto;
+
+}
+
+label {
+
+    color: black;
+
+    font-size: 18px;
+
+    padding: 10px;
+
+}
+
+button:hover{
+
+    opacity: .10;
+
+}
